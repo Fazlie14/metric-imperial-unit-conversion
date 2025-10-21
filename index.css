@@ -1,0 +1,77 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  text-align: center;
+  font-family: 'Kinat',sans-serif;
+}
+#hero-section{
+  background-color: #33032F;
+  padding: 20px 20px;
+
+}
+h1{
+  font-size: 50px;
+  color: azure;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+#input-El{
+  width: 200px;
+  height: 130px;
+  text-align: center;
+  font-size: 100px;
+  padding: 20px 10px;
+  background: none;
+  color: azure;
+  font-weight: 800;
+  border: none;
+  border: 1px solid azure;
+  border-radius:5px ;
+
+}
+#input-El:focus{
+  outline: none;
+}
+#convertBtn{
+  margin-top: 30px;
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: azure;
+  border: none;
+  color: #33032F;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+
+#footer{
+  background-color: #E6E9FD;
+  padding: 40px 50px;
+}
+.card{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #F2FDFF;
+  height: 200px;
+  width: 100%;
+  margin: 30px 0;
+  padding: 50px 50px;
+  border-radius: 5px;
+  
+}
+.card h3{
+  font-size: 30px;
+  color: #33032F;
+  padding: 25px 0;
+}
+.card p{
+  font-size: 24px;
+  color: #33032F;
+  
+}
