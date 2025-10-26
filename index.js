@@ -16,10 +16,18 @@ convertBtn.addEventListener("click", function(){
   let inputValue = Number(inputEl.value)
 
   if(isNaN(inputValue)){
+
     inputEl.style.border = "2px solid red"
-    errorEl.style.color = "red"
-    errorEl.style.padding = "5px 0"
-    errorEl.textContent = "Enter Valid Number!"
+      errorEl.style.color = "red"
+      errorEl.style.padding = "5px 0"
+      errorEl.textContent = "Enter Valid Number!"
+    setTimeout(() => {
+      errorEl.textContent = ""
+      inputEl.style.border = "1px solid azure"
+      
+
+    },3000);
+    
   }else{
     errorEl.textContent = ""
     inputEl.style.border = "1px solid azure"
